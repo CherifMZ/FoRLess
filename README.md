@@ -36,7 +36,10 @@ Fog computing and FaaS have gained popularity due to their scalability and flexi
 
 ## 💡 **2. Proposed Approach**  
 ### 📐 **System Architecture**  
-![System Architecture](path_to_image)  
+
+<p align="center">
+  <img src="./hight_architecture.png" alt="System Architecture" width="70%">
+</p>
 
 ### 🧠 **Deep Reinforcement Learning Framework**  
 The DQN-based scheduler dynamically assigns functions to fog nodes, minimizing **latency** and **energy consumption**.
@@ -53,10 +56,14 @@ The DQN-based scheduler dynamically assigns functions to fog nodes, minimizing *
 ## 📈 **4. Results and Discussion**  
 ### 📊 **Performance Overview**  
 
-| **Metric**         | **Baseline** | **FoRLess** | **Improvement** |
-|--------------------|---------------|--------------|------------------|
-| 🕒 **Latency (ms)**  | 100           | 92.85        | **7.15%**        |
-| 🔋 **Energy (kWh)** | 50            | 44           | **12%**          |
+
+| **Metric**               | **Improvement** |
+|--------------------------|------------------|
+| 🕒 **Latency (ms)**       | **7.15%**       |
+| 🔋 **Energy (kWh)**       | **12%**         |
+| ⚠️ **Overhead (kWh)**     | **-1.88%**       |
+| ⚡ **Total Energy Consumption** | **9.95%**    |
+
 
 ---
 
